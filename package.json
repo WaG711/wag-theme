@@ -2,9 +2,9 @@
   "name": "wag-theme",
   "displayName": "wag_theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "*"
   },
   "categories": [
     "Themes"
@@ -16,9 +16,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "wag_",
+        "id": "wag-theme",
+        "label": "wag-theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/wag_-color-theme.json"
+        "path": "./themes/wag-color-theme.json"
       }
     ]
   }
